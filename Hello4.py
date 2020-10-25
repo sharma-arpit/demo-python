@@ -27,8 +27,8 @@ def main(name_list, psid_list):
         emp.append(emp_object)
 
     for e in emp:
-        print("Name:", e.name)
-        print("PSID:", e.psid)
+        print("Name:", e.get_name())
+        print("PSID:", e.get_psid())
         print(e)
         print("-------------------")
 
